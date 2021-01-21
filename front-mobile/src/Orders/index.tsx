@@ -39,7 +39,9 @@ export default function Orders() {
       <Header />
       <ScrollView style={styles.container}>
         {isLoading ? (
-          <Text>Buscando pedidos...</Text>
+          <Text style={styles.subTitle}>
+            Buscando pedidos...
+          </Text>
         ) : (
             orders.map(order => (
               <TouchableWithoutFeedback 
@@ -59,5 +61,12 @@ const styles = StyleSheet.create({
   container: {
     paddingRight: '5%',
     paddingLeft: '5%',
-}
+},
+  subTitle: {
+    color: '#9E9E9E',
+    fontSize: 16,
+    marginTop: 15,
+    lineHeight: 22,
+    textAlign: 'center'
+  }
 });
