@@ -33,6 +33,5 @@ _Site para realização de pedidos, e, Aplicativo para integração do sistema d
 - Interação GoogleMaps
 - Loading e refresher 
 
-[Acesse](https://delivercarvalho.netlify.app/orders)
-
+<img src="https://img.shields.io/badge/Aiqfome-7A1FA2?style=for-the-badge&logo=aiqfome&logoColor=white">[Acesse nosso site](https://delivercarvalho.netlify.app/orders)
 
