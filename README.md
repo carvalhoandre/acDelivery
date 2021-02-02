@@ -14,17 +14,17 @@
 </p>
 
 
-
 <img 
-    src="https://github.com/carvalhoandre/dsdeliver/blob/main/img/HOME%20DELIVERY.png" 
-    min-width="450" 
-    max-width="450" 
-    width="500" 
-    align="left" 
+    src="https://github.com/carvalhoandre/dsdeliver/blob/main/img/iPhone%208%20Plus%20-%20HOME.png"
+    min-width="250" 
+    max-width="250" 
+    width="300" 
+    align="right" 
     alt="Logo_andre">
-
+    
 
 ## Implementações:
+
 - Solicitação de pedido  
 - Confirmação/cancelamento via aplicativo
 - Interação GoogleMaps
