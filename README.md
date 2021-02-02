@@ -13,6 +13,9 @@
     <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
 </p>
 
+
+_Site para realização de pedidos, e, Aplicativo para integração do sistema de entegras, esse é o *DSDelivery*_
+    
     
 <img 
     src="https://github.com/carvalhoandre/dsdeliver/blob/main/img/HOME%20DELIVERY.png" 
@@ -29,4 +32,7 @@
 - Confirmação/cancelamento via aplicativo
 - Interação GoogleMaps
 - Loading e refresher 
+
+[Acesse](https://delivercarvalho.netlify.app/orders)
+
 
