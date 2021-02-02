@@ -13,13 +13,13 @@
     <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
 </p>
 
-
+    
 <img 
-    src="https://github.com/carvalhoandre/dsdeliver/blob/main/img/iPhone%208%20Plus%20-%20HOME.png"
-    min-width="250" 
-    max-width="250" 
-    width="300" 
-    align="right" 
+    src="https://github.com/carvalhoandre/dsdeliver/blob/main/img/HOME%20DELIVERY.png" 
+    min-width="450" 
+    max-width="450" 
+    width="500" 
+    align="left" 
     alt="Logo_andre">
     
 
