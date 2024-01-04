@@ -1,0 +1,33 @@
+.content-image img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.list li:nth-child(even) {
+  background-color: #000;
+}
+
+.navigate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.navigate-button {
+  text-transform: uppercase;
+}
+
+.navigate-button {
+  background-color: #fff;
+}
+
+.navigate-button {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.navigate-button:hover {
+  border-bottom: 0.2rem solid #ee2211;
+}
