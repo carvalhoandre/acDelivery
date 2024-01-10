@@ -1,0 +1,53 @@
+.indroduction::before {
+  content: "";
+  position: absolute;
+  width: 3.75rem;
+  height: 0.25rem;
+  top: 1.8rem;
+  right: -1.8rem;
+  background: #ee2211;
+  z-index: 100;
+}
+
+.indroduction {
+  display: grid;
+  position: relative;
+
+  padding: 2.5rem;
+  gap: 1.25rem;
+  align-items: center;
+  justify-items: end;
+  text-align: end;
+}
+
+.indroduction-button {
+  background-color: #ee2211;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.indroduction-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .indroduction {
+    padding: 1rem;
+  }
+
+  .indroduction::before {
+    top: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .indroduction::before {
+    display: none;
+  }
+
+  .indroduction {
+    text-align: left;
+  }
+}

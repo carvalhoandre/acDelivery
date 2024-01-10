@@ -1,0 +1,78 @@
+.emphasis {
+  display: grid;
+  padding: 2.5rem;
+  align-items: center;
+  justify-items: end;
+  text-align: end;
+}
+
+.emphasis > h2 {
+  font-size: 4rem;
+  color: #c6c6c6;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.emphasis {
+  background-image: url("../../../../assets/onda.svg");
+}
+
+.details {
+  display: grid;
+  padding: 2.5rem;
+  gap: 1.25rem;
+}
+
+.details-item:hover {
+  border-color: #ee2211;
+}
+
+.details-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.6rem 1.25rem;
+  padding: 1.25rem;
+  border-left: 0.2rem solid transparent;
+}
+
+.details-item > p {
+  grid-column: 2;
+}
+
+@media screen and (max-width: 1200px) {
+  .emphasis,
+  .details {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .advantage {
+    grid-template-columns: 1fr;
+  }
+
+  .emphasis > h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .emphasis > h2,
+  .emphasis {
+    text-align: left;
+  }
+
+  .emphasis > h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .emphasis > h2 {
+    font-size: 1.9rem;
+  }
+
+  .details-item {
+    padding: 1rem;
+  }
+}

@@ -19,3 +19,16 @@ type ProductId = {
 export type OrderPayload = {
     products: ProductId[];
 } & OrderLocationData;
+
+export type Place = {
+    label?: string;
+    value?: string;
+    position: {
+        lat: number;
+        lng: number;
+    }; 
+}
+
+export type orderLocationProps = {
+    onChangeLocation: (location: OrderLocationData) => void;
+}

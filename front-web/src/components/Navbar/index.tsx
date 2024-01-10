@@ -1,6 +1,6 @@
 
 /* @ts-ignore */
-import Bikaft from "../../assets/bikcraft.svg";
+import Bikraft from "../../assets/bikcraft.svg";
 
 import "./styles.css";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
     <header>
       <nav aria-label="principal">
         <div className="content-image">
-          <img src={Bikaft} alt="bikcraft_logo" />
+          <img src={Bikraft} alt="bikcraft_logo" />
         </div>
 
         <ul className="navigate list">
