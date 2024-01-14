@@ -1,5 +1,5 @@
 import axios from "axios"
-import { OrderPayload } from "./Orders/types";
+import { MapPayload } from "./components/Maps/types";
 
 const API_URL = process.env.REACT_APP_ACCESS_TOKEN_DATABASE_HEROKU;
 
@@ -13,6 +13,6 @@ export function fetchLocalMapBox(local: string){
     return axios(`https://api.mapbox.com/geocoding/v5/mapbox.places/${local}.json?access_token=${mapboxToken}`)
 }
 
-export function saveOrder(payload : OrderPayload){
+export function saveOrder(payload : MapPayload){
     return axios.post(`${API_URL}/orders`, payload);
 }
