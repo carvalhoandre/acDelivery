@@ -32,6 +32,10 @@
   border-bottom: 0.2rem solid #ee2211;
 }
 
+li > * {
+  color: #000;
+}
+
 @media screen and (max-width: 1200px) {
   .content {
     max-width: 53rem;
