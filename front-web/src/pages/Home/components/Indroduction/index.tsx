@@ -5,9 +5,9 @@ import "./styles.css";
 
 const Indroduction = () => {
   return (
-    <article className="content" aria-labelledby="label-introducao">
+    <article className="content" aria-labelledby="label-introduction">
       <div className="indroduction white">
-        <h2 id="label-introducao" className="title">
+        <h2 id="label-introduction" className="title">
           Bicicletas Feitas a Mão
         </h2>
 
@@ -16,7 +16,7 @@ const Indroduction = () => {
           vem equipada com os melhores acessórios da marca.
         </p>
 
-        <button className="indroduction-button">Ver mais</button>
+        <button className="button indroduction-button">Ver mais</button>
       </div>
 
       <img

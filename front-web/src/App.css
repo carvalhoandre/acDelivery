@@ -45,8 +45,7 @@ body {
   height: 100vh;
 }
 
-button,
-a {
+.button {
   padding: 0.9rem 1.87rem;
   border: none;
 }

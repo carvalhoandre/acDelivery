@@ -1,6 +1,6 @@
 .container-home {
   display: flex;
   flex-direction: column;
-  margin: 5rem 0;
   align-items: center;
+  margin-top: 3rem;
 }

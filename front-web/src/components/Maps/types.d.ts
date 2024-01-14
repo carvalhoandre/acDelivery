@@ -1,12 +1,4 @@
-export type Product = {
-    id: number;
-    name: string; 
-    price: number;
-    description: string;
-    imageUri: string;
-}
-
-export type OrderLocationData = {
+export type MapLocationData = {
     latitude: number;
     longitude: number;
     address: string;
@@ -16,7 +8,7 @@ type ProductId = {
     id: number;
 }
 
-export type OrderPayload = {
+export type MapPayload = {
     products: ProductId[];
 } & OrderLocationData;
 
@@ -29,6 +21,6 @@ export type Place = {
     }; 
 }
 
-export type orderLocationProps = {
-    onChangeLocation: (location: OrderLocationData) => void;
+export type mapLocationProps = {
+    onChangeLocation: (location: MapLocationData) => void;
 }

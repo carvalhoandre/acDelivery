@@ -10,7 +10,7 @@ const Emphasis = () => {
   return (
     <article className="content advantage" aria-labelledby="label-vantagens">
       <div className="emphasis">
-        <h2 id="label-introducao">Vantagens Bikcraft</h2>
+        <h2 id="label-introduction">Vantagens Bikcraft</h2>
       </div>
 
       <ul className="white details">
