@@ -1,6 +1,6 @@
-
 /* @ts-ignore */
 import Bikraft from "../../assets/bikcraft.svg";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom or your preferred routing library
 
 import "./styles.css";
 
@@ -14,16 +14,24 @@ const Navbar = () => {
 
         <ul className="navigate list">
           <li>
-            <a className="button navigate-button">Sobre</a>
+            <Link to="/about" className="button navigate-button">
+              Sobre
+            </Link>
           </li>
           <li>
-            <a className="button navigate-button">Produtos</a>
+            <Link to="/products" className="button navigate-button">
+              Produtos
+            </Link>
           </li>
           <li>
-            <a className="button navigate-button">Lojas</a>
+            <Link to="/stores" className="button navigate-button">
+              Lojas
+            </Link>
           </li>
           <li>
-            <a className="button navigate-button">Contato</a>
+            <Link to="/contact" className="button navigate-button">
+              Contato
+            </Link>
           </li>
         </ul>
       </nav>
