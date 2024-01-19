@@ -8,13 +8,13 @@
 
 .emphasis > h2 {
   font-size: 4rem;
-  color: #c6c6c6;
+  color: var(--subtitle);
   text-transform: uppercase;
   word-break: unset;
 }
 
 .emphasis {
-  background-image: url("../../../../assets/onda.svg");
+  background-image: var(--wave);
 }
 
 .details {
@@ -24,7 +24,7 @@
 }
 
 .details-item:hover {
-  border-color: #ee2211;
+  border-color: var(--primary-color);
 }
 
 .details-item {

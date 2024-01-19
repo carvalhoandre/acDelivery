@@ -10,8 +10,8 @@
   text-align: center;
 }
 
-.location-emphasis > h2 {
-  color: #FFF;
+.title {
+  color: var(--text);
   text-transform: uppercase;
 }
 

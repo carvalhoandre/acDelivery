@@ -1,5 +1,4 @@
-/* @ts-ignore */
-import Bikraft from "../../assets/bikcraft.svg";
+import Logo from "../Logo";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom or your preferred routing library
 
 import "./styles.css";
@@ -9,7 +8,7 @@ const Navbar = () => {
     <header>
       <nav aria-label="principal">
         <div className="content-image">
-          <img src={Bikraft} alt="bikcraft_logo" />
+         <Logo />
         </div>
 
         <ul className="navigate list">

@@ -5,7 +5,7 @@
   height: 0.25rem;
   top: 1.8rem;
   right: -1.8rem;
-  background: #ee2211;
+  background: var(--primary-color);
   z-index: 100;
 }
 
@@ -21,8 +21,8 @@
 }
 
 .indroduction-button {
-  background-color: #ee2211;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text);
   border-radius: 0.25rem;
 }
 

@@ -3,10 +3,6 @@
   height: 100%;
 }
 
-.list li:nth-child(even) {
-  background-color: #000;
-}
-
 .navigate {
   display: flex;
   flex-direction: row;
@@ -20,7 +16,7 @@
 }
 
 .navigate-button {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .navigate-button {
@@ -29,11 +25,11 @@
 }
 
 .navigate-button:hover {
-  border-bottom: 0.2rem solid #ee2211;
+  border-bottom: 0.2rem solid var(--primary-color);
 }
 
 li > * {
-  color: #000;
+  color: var(--text);
 }
 
 @media screen and (max-width: 1200px) {
